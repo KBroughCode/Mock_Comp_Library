@@ -18,7 +18,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook",
-    "eyes-storybook": "eyes-storybook" 
+    "eyes-storybook": "eyes-storybook",
+    "percy-storybook": "build-storybook && percy-storybook --widths=320,1280"
+
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -38,6 +40,7 @@
   "devDependencies": {
     "@applitools/eyes-storybook": "^3.2.3",
     "@babel/core": "^7.7.7",
+    "@percy-io/percy-storybook": "^2.1.0",
     "@storybook/react": "^5.2.8",
     "babel-loader": "^8.0.6"
   }
