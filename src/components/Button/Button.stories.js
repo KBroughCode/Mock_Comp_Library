@@ -5,8 +5,8 @@ export default {
     title: 'Button',
  };
 
-export const withHelloText = () => <Button>Lalalala</Button>;
+export const withHelloText = () => <Button>Hello Wurld</Button>;
 
 export const withEmoji = () => (
-  <Button><span>😀 😎 👍 💯</span></Button>
+  <Button><span>Emoji Button 😎</span></Button>
 );

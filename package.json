@@ -9,7 +9,6 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.0",
-    "storybook": "^5.1.11",
     "styled-components": "^4.4.1"
   },
   "scripts": {
@@ -18,9 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook",
-    "eyes-storybook": "eyes-storybook",
-    "percy-storybook": "build-storybook && percy-storybook --widths=320,1280"
-
+    "eyes-storybook": "eyes-storybook"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -40,8 +37,7 @@
   "devDependencies": {
     "@applitools/eyes-storybook": "^3.2.3",
     "@babel/core": "^7.7.7",
-    "@percy-io/percy-storybook": "^2.1.0",
-    "@storybook/react": "^5.2.8",
+    "@storybook/react": "^5.3.2",
     "babel-loader": "^8.0.6"
   }
 }
