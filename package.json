@@ -10,6 +10,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.0",
+    "require-context.macro": "^1.2.2",
     "styled-components": "^4.4.1"
   },
   "scripts": {
@@ -40,7 +41,9 @@
     "@applitools/eyes-storybook": "^3.2.3",
     "@babel/core": "^7.7.7",
     "@percy/storybook": "^3.2.0",
+    "@storybook/addon-storyshots": "^5.3.3",
     "@storybook/react": "^5.3.2",
-    "babel-loader": "^8.0.6"
+    "babel-loader": "^8.0.6",
+    "react-test-renderer": "^16.12.0"
   }
 }
