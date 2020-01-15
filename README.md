@@ -31,16 +31,18 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run storybook`
 
-an open source tool for developing UI components in isolation.<b />
+an open source tool for developing UI components in isolation.
 Open [http://localhost:9090](http://localhost:9090) to view it in the browser.
 
-*NOTE* You will have to refresh the page if any changes are made
+*NOTE* You will have to refresh the page if any changes are made<br />
 
 ### `eyes-storybook`
-Applitools is a visual regression tool that works with the stories we produce via Storybook. It will compare snapshot images of our components and highlight any differences between them. <b/>
+Applitools is a visual regression tool that works with the stories we produce via Storybook. It will compare snapshot images of our components and highlight any differences between them.
 On the first run, the set of screenshots Applitools recieves will become the Baseline image that future images will be compared against.
-*NOTE* Updates to the Baseline and Deliberate changes are also possible <b />
-see (https://applitools.com/tutorials/storybook-react.html#how-it-works) for more information
+
+Applitools has been configured to complete visual regression testing on Chrome, IE 11 and Firefox browsers
+*NOTE* Updates to the Baseline and Deliberate changes are also possible <b>
+see (https://applitools.com/tutorials/storybook-react.html#how-it-works) for more information.
 
 ### `snapshot`
 
