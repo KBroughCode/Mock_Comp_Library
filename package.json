@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "ui-test": "build-storybook && react-scripts test",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook",
+    "storybook": "start-storybook -p 9090",
     "snapshot": "build-storybook -s public && percy-storybook --widths=320,1280",
     "eyes-storybook": "eyes-storybook"
   },
