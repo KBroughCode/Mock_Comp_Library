@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styled, {css} from 'styled-components';
 
 const styledButton = {
-    backgroundColor: "red",
+    backgroundColor: "blue",
     color: "Black",
     fontSize: "40px",
     margin: "1em",
