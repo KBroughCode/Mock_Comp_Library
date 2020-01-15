@@ -36,7 +36,7 @@ Open [http://localhost:9090](http://localhost:9090) to view it in the browser.
 
 *NOTE* You will have to refresh the page if any changes are made<br />
 
-### `eyes-storybook`
+### `npm eyes-storybook`
 Applitools is a visual regression tool that works with the stories we produce via Storybook. It will compare snapshot images of our components and highlight any differences between them.
 On the first run, the set of screenshots Applitools recieves will become the Baseline image that future images will be compared against.
 
@@ -44,7 +44,9 @@ Applitools has been configured to complete visual regression testing on Chrome, 
 *NOTE* Updates to the Baseline and Deliberate changes are also possible <b>
 see (https://applitools.com/tutorials/storybook-react.html#how-it-works) for more information.
 
-### `snapshot`
+### `npm run snapshot`
+Percy is another visual regression tool that works with the stories we produce via Storybook. It will compare snapshot images of our components and highlight any differences between them.
+On the first run, the set of screenshots Percy recieves will become the Baseline image that future images will be compared against.
 
-### ``
-
+Once a test has been ran you can toggle between screen width and browser in the Percy GUI (Only Chrome and Firefox available - atleast on free tier)
+see (https://docs.percy.io/docs/storybook-for-react) for more information
